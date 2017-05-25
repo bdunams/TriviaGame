@@ -72,8 +72,8 @@ var trivia = {
   // method to loop through and display questions and options 
   nextQuestion : function(){
     
-    // set timer to 15 seconds each question
-    trivia.timer = 15;
+    // set timer to 20 seconds each question
+    trivia.timer = 20;
      $('#timer').removeClass('last-seconds');
     $('#timer').text(trivia.timer);
     
